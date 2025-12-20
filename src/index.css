@@ -11,15 +11,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 100vw;
-  min-height: 100svh;
+  width: 100svw;
+  height: 100svh;
+}
+
+canvas#simulator {
+  width: 95vmin;
+  aspect-ratio: 1;
+  border: 1px solid black;
 }
